@@ -262,3 +262,43 @@ transition: 0.2s;
 .card p{
     font-size: 14px;
 }
+@media(max-width:576px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+@media(max-width:576px){
+    .container .text h3:nth-of-type(1){
+        text-align: center;
+    }
+}
+@media(max-width:576px){
+    .container .text h3:nth-of-type(2){
+        text-align: center;
+    }
+}
+@media(max-width:576px){
+    .container .text p{
+        text-align: center;
+    }
+}
+@media(max-width:576px){
+    .container .text .profil{
+        flex-direction: column;
+    }
+}
+@media(max-width:576px){
+    .container .card .input{
+        width: 404px;
+        transform: translateY(-87px);
+        margin-left: 10px;
+        padding-right: 10px;
+    }
+}
+@media(max-width:576px){
+ .card >p{
+        
+        transform: translateY(-58px);
+    }
+}
