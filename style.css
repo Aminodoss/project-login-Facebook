@@ -229,7 +229,7 @@ transition: 0.2s;
    
 }
 .input p:nth-of-type(2) input{
-    padding: 17px 102px 17px 102px;
+   padding:  17px 102px 17px 102px;
     border-radius: 8px ;
     border-radius: blue;
     
@@ -302,3 +302,13 @@ transition: 0.2s;
         transform: translateY(-58px);
     }
 }
+@media(max-width:576px){
+   .container .card .input p:nth-of-type(2) input{
+        padding: 17px 87px 17px 86px;
+        
+        width: 194px;
+ 
+   }
+}
+
+  
